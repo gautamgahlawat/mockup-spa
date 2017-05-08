@@ -62,7 +62,6 @@ h6 {
 .btn-primary {
   color: white;
   background-color: #2B985C;
-  border-color: #2B985C;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -578,7 +577,6 @@ section#contact .section-heading {
 
 section#contact .fa-twitter {
   color: white;
-  size: 1.5em;
 }
 
 section#contact-2 .section-heading,
@@ -723,16 +721,7 @@ ul.social-buttons li a:active {
   text-shadow: none;
   background: #2B985C;
 }
-::selection {
-  text-shadow: none;
-  background: #2B985C;
-}
-img::selection {
-  background: transparent;
-}
+
 img::-moz-selection {
   background: transparent;
-}
-body {
-  webkit-tap-highlight-color: #2B985C;
 }
