@@ -1,0 +1,31 @@
+{
+  "name": "mockup-spa",
+  "version": "1.0.0",
+  "description": "spa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gautamgahlawat/mockup-spa.git"
+  },
+  "author": "Gautam Gahlawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gautamgahlawat/mockup-spa/issues"
+  },
+  "homepage": "https://github.com/gautamgahlawat/mockup-spa#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.1.0",
+    "grunt-contrib-htmlmin": "^2.3.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-uglify": "^2.3.0",
+    "grunt-inline-css": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
