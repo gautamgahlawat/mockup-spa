@@ -566,6 +566,10 @@ hr {
 section#contact {
   background-color: #222222;
   background-image: url('../img/rose.jpg');
+  /*max height*/
+  max-height: 500px;
+  /*for parallax*/
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -582,7 +586,7 @@ section#contact .fa-twitter {
 
 section#contact-2 .section-heading,
  .section-subheading {
-    color: white;
+  color: white;
 }
 
 
