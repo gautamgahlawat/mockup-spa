@@ -340,6 +340,7 @@ section h3.section-subheading {
 }
 
 .studio-vid iframe {
+  border: 0px;
   max-width: 100%;
   padding-top: 15px;
 }
